@@ -19,14 +19,14 @@
 		{
 			"type": "archive",
 			"only-arches": ["aarch64"],
-			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2024.10.02/QuickPdfJoin_Linux_arm64_Flathub.tar.gz",
-			"sha256": "9a69e98b7de06819663cf51bba88778ebf978ff612a03e645503a829647702a3"
+			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2025.07.20/QuickPdfJoin_Linux_arm64_Flathub.tar.gz",
+			"sha256": "91dac5e9f506352aebae74862ac4fc64a88de6189cc2d566b37212d02ea220cf"
 		},
 		{
 			"type": "archive",
 			"only-arches": ["x86_64"],
-			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2024.10.02/QuickPdfJoin_Linux_x64_Flathub.tar.gz",
-			"sha256": "e8ff376d6c80ab1a50579d97ec9a0ca5493f604b222dd002fb1f504a4e45c368"
+			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2025.07.20/QuickPdfJoin_Linux_x64_Flathub.tar.gz",
+			"sha256": "030c4ffe83b812fdf3de377fbf1880743fe784606d41bb9daf7b8e42508676bb"
 		}
 	],
 	"build-commands": [

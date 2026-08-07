@@ -5,7 +5,8 @@
   "sdk": "org.freedesktop.Sdk",
   "command": "QuickPdfJoin",
   "finish-args": [
-	"--socket=x11",
+  	"--socket=wayland",
+	"--socket=fallback-x11",
 	"--share=ipc",
 	"--device=dri",
 	"--env=LD_LIBRARY_PATH=/app/lib"
@@ -18,14 +19,14 @@
 		{
 			"type": "archive",
 			"only-arches": ["aarch64"],
-			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2026.07.10/QuickPdfJoin_Linux_arm64_Flathub.tar.gz",
-			"sha256": "a349ea3afdbcb9f18479e837ced12c1b1d69ac57c93ccf17f48de2b5145750e5"
+			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2026.08.08/QuickPdfJoin_Linux_arm64_Flathub.tar.gz",
+			"sha256": "f7a97c3d32d2c45572c3c7a6f22a8a7295202d890160227099d554de61e39e05"
 		},
 		{
 			"type": "archive",
 			"only-arches": ["x86_64"],
-			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2026.07.10/QuickPdfJoin_Linux_x64_Flathub.tar.gz",
-			"sha256": "6e4d7e109acbd38ed255368174159ca1979984499bcc6c8690334f9f560b7bd5"
+			"url": "https://github.com/mihnea-radulescu/quickpdfjoin/releases/download/1.2026.08.08/QuickPdfJoin_Linux_x64_Flathub.tar.gz",
+			"sha256": "b48f3594fd0881a72a8023460eac61efea1611298d1e2cb50acfef1409ddfe54"
 		}
 	],
 	"build-commands": [
